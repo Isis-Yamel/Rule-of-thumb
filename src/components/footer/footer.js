@@ -12,8 +12,8 @@ export const Footer = () => {
         </div>
         <div className="footer__wrapper footer__wrapper--icons">
           <p>Follow us</p>
-          <i class="footer__icon fab fa-facebook-square"></i>
-          <i class="footer__icon fab fa-twitter"></i>
+          <i className="footer__icon fab fa-facebook-square"></i>
+          <i className="footer__icon fab fa-twitter"></i>
         </div>
       </section>
     </footer>

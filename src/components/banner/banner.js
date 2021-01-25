@@ -20,7 +20,7 @@ const renderBanner = (isToggled, toggleBanner) => {
           className="banner__container--icon"
           onClick={() => toggleBanner()}
         >
-          <i class="fas fa-times"></i>
+          <i className="fas fa-times"></i>
         </span>
       </Fragment>
     );

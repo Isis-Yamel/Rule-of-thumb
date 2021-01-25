@@ -20,7 +20,7 @@ const HeaderInformation = () => {
             pontiff? (thumbs up)
           </p>
           <span className="header__link">
-            <i class="fab fa-wikipedia-w"></i>
+            <i className="fab fa-wikipedia-w"></i>
             <a
               className="header__link--style"
               href="https://en.wikipedia.org/wiki/Pope_Francis"
@@ -32,10 +32,10 @@ const HeaderInformation = () => {
         </div>
         <div>
           <button className="header__button header__button--green">
-            <i class="header__button--icon fas fa-thumbs-up"></i>
+            <i className="header__button--icon fas fa-thumbs-up"></i>
           </button>
           <button className="header__button header__button--yellow">
-            <i class="header__button--icon fas fa-thumbs-down"></i>
+            <i className="header__button--icon fas fa-thumbs-down"></i>
           </button>
         </div>
       </article>

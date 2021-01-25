@@ -28,7 +28,7 @@ const HeaderNavBar = () => {
             setNavOpen(!navOpen);
           }}
         >
-          <i class="fas fa-bars"></i>
+          <i className="fas fa-bars"></i>
         </div>
         <ul
           className={
@@ -46,7 +46,7 @@ const HeaderNavBar = () => {
           <li>
             <NavLink to="/log-in-sign-in/">Log In / Sign Up</NavLink>
           </li>
-          <i class="fas fa-search"></i>
+          <i className="fas fa-search"></i>
         </ul>
       </nav>
     </section>

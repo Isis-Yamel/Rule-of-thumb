@@ -19,7 +19,7 @@ class App extends Component {
       <BrowserRouter basename="/">
         <div className="app__layout">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Home}/>
             <Route
               path="/past-trials"
               render={() => <EmptyRoute title="Past trial" />}
@@ -39,10 +39,4 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return {
-    candidates: state.candidates,
-  };
-};
-
-export default connect(mapStateToProps, { getCandidates })(App);
+export default connect(null, { getCandidates })(App);

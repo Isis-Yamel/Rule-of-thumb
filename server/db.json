@@ -6,9 +6,10 @@
       "image": "kanye",
       "industry": "Entertainment",
       "name": "Kanye West",
-      "thumb-down": 36,
-      "thumb-up": 64,
-      "time": 1
+      "thumbDown": 36,
+      "thumbUp": 64,
+      "time": 1,
+      "total": 100
     },
     {
       "description": "Generic description for Mark",
@@ -16,9 +17,10 @@
       "image": "markzuckerberg",
       "industry": "Business",
       "name": "Mark Zuckerberg",
-      "thumb-down": 64,
-      "thumb-up": 36,
-      "time": 1
+      "thumbDown": 64,
+      "thumbUp": 36,
+      "time": 1,
+      "total": 100
     },
     {
       "description": "Generic description for Cristina",
@@ -26,9 +28,10 @@
       "image": "cristina",
       "industry": "Politics",
       "name": "Cristina Fernández de Kirchner",
-      "thumb-down": 64,
-      "thumb-up": 36,
-      "time": 1
+      "thumbDown": 64,
+      "thumbUp": 36,
+      "time": 1,
+      "total": 100
     },
     {
       "description": "Generic description for Malala",
@@ -36,9 +39,10 @@
       "image": "malala",
       "industry": "Entertainment",
       "name": "Malala Yousafzai",
-      "thumb-down": 36,
-      "thumb-up": 64,
-      "time": 1
+      "thumbDown": 36,
+      "thumbUp": 64,
+      "time": 1,
+      "total": 100
     }
   ]
 }
