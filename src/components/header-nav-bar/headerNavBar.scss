@@ -1,0 +1,87 @@
+/* ---- header navigation bar ---- */
+@import '../../styles/constants/palette.scss';
+
+.header__container {
+  &--style {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  &--nav {
+    font-size: 16px;
+    width: 76%;
+  }
+
+  &--nav li {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 0;
+  }
+
+  &--nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  &--nav a {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.header__nav {
+  &--button {
+    font-size: 24px;
+    position: absolute;
+    right: 10%;
+    top: 48px;
+  }
+
+  &--list {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 56px;
+  }
+
+  &--hide {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__container {
+    &--nav li {
+      margin: 20px;
+    }
+  }
+
+  .header__nav {
+    &--button {
+      display: none;
+    }
+
+    &--list {
+      flex-direction: row;
+      align-items: center;
+      top: 0;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media (min-width: 1080px) {
+  .header__container {
+    &--nav {
+      width: 50%;
+    }
+  }
+}

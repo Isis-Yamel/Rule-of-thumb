@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "description": "Generic description for Kanye",
+      "id": 1,
+      "image": "kanye",
+      "industry": "Entertainment",
+      "name": "Kanye West",
+      "thumb-down": 36,
+      "thumb-up": 64,
+      "time": 1
+    },
+    {
+      "description": "Generic description for Mark",
+      "id": 2,
+      "image": "markzuckerberg",
+      "industry": "Business",
+      "name": "Mark Zuckerberg",
+      "thumb-down": 64,
+      "thumb-up": 36,
+      "time": 1
+    },
+    {
+      "description": "Generic description for Cristina",
+      "id": 3,
+      "image": "cristina",
+      "industry": "Politics",
+      "name": "Cristina Fernández de Kirchner",
+      "thumb-down": 64,
+      "thumb-up": 36,
+      "time": 1
+    },
+    {
+      "description": "Generic description for Malala",
+      "id": 4,
+      "image": "malala",
+      "industry": "Entertainment",
+      "name": "Malala Yousafzai",
+      "thumb-down": 36,
+      "thumb-up": 64,
+      "time": 1
+    }
+  ]
+}

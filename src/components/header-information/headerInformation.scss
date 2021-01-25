@@ -1,0 +1,90 @@
+/* ---- header main information ---- */
+@import '../../styles/constants/palette.scss';
+
+.header {
+  &__information {
+    margin: 6% 10%;
+    position: relative;
+    width: 80%;
+
+    &:before {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(10, 10, 10, 0.2);
+      bottom: 0;
+      content: '';
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    &--style {
+      padding: 22px;
+    }
+
+    &--position {
+      position: relative;
+    }
+
+    &--title {
+      margin: 0;
+    }
+
+    &--titleInfo {
+      font-size: 8px;
+    }
+
+    &--titleName {
+      display: block;
+      font-size: 32px;
+    }
+  }
+
+  &__button {
+    border: none;
+    height: 44px;
+    width: 50%;
+
+    &--green {
+      background-color: $primaryGreen;
+    }
+
+    &--yellow {
+      background-color: $primaryYellow;
+    }
+
+    &--icon {
+      color: white;
+      font-size: 24px;
+    }
+  }
+
+  &__link {
+    align-items: center;
+    display: flex;
+
+    &--style {
+      color: $white;
+      font-size: 13px;
+      padding-left: 6px;
+    }
+  }
+
+  &__veredict {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__information {
+    width: 46%;
+  }
+}
+
+@media (min-width: 1080px) {
+  .header__information {
+    width: 26%;
+  }
+}

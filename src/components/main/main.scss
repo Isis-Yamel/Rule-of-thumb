@@ -1,0 +1,8 @@
+/* ---- main content layout ---- */
+@import '../../styles/constants/palette.scss';
+
+.main__layout {
+  background-color: $white;
+  grid-area: main;
+  width: 100%;
+}
