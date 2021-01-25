@@ -1,40 +1,44 @@
 {
   "candidates": [
     {
-      "id": 1,
-      "name": "Kanye West",
-      "industry": "Entertainment",
-      "time": 1,
       "description": "Generic description for Kanye",
-      "thumb-up": 64,
-      "thumb-down": 36
-    },
-    {
-      "id": 2,
-      "name": "Mark Zuckerberg",
-      "industry": "Business",
-      "time": 1,
-      "description": "Generic description for Mark",
-      "thumb-up": 36,
-      "thumb-down": 64
-    },
-    {
-      "id": 3,
-      "name": "Cristina Fernández de Kirchner",
-      "industry": "Politics",
-      "time": 1,
-      "description": "Generic description for Cristina",
-      "thumb-up": 36,
-      "thumb-down": 64
-    },
-    {
-      "id": 4,
-      "name": "Malala Yousafzai",
+      "id": 1,
+      "image": "kanye",
       "industry": "Entertainment",
-      "time": 1,
-      "description": "Generic description for Malala",
+      "name": "Kanye West",
+      "thumb-down": 36,
       "thumb-up": 64,
-      "thumb-down": 36
+      "time": 1
+    },
+    {
+      "description": "Generic description for Mark",
+      "id": 2,
+      "image": "markzuckerberg",
+      "industry": "Business",
+      "name": "Mark Zuckerberg",
+      "thumb-down": 64,
+      "thumb-up": 36,
+      "time": 1
+    },
+    {
+      "description": "Generic description for Cristina",
+      "id": 3,
+      "image": "cristina",
+      "industry": "Politics",
+      "name": "Cristina Fernández de Kirchner",
+      "thumb-down": 64,
+      "thumb-up": 36,
+      "time": 1
+    },
+    {
+      "description": "Generic description for Malala",
+      "id": 4,
+      "image": "malala",
+      "industry": "Entertainment",
+      "name": "Malala Yousafzai",
+      "thumb-down": 36,
+      "thumb-up": 64,
+      "time": 1
     }
   ]
 }

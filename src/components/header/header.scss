@@ -1,0 +1,19 @@
+/* ---- header layout and style ---- */
+@import '../../styles/constants/palette.scss';
+
+.header {
+  &__container {
+    background-image: linear-gradient(
+        180deg,
+        rgba(42, 42, 44, 0.928) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url(../../assets/pope.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    grid-area: header;
+    height: 100%;
+  }
+}

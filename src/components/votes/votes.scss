@@ -1,0 +1,159 @@
+/* ---- votes section styles and layout ---- */
+@import '../../styles/constants/palette.scss';
+
+.votes {
+  &__container {
+    color: $white;
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  &__image {
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__information {
+    bottom: 20%;
+    left: 40px;
+    position: absolute;
+    width: 80%;
+    z-index: 3;
+
+    &--title {
+      font-size: 32px;
+      margin: 0;
+    }
+
+    &--time {
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+
+  &__item {
+    height: 550px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+
+    &:before {
+      background-color: rgba(10, 10, 10, 0.4);
+      bottom: 0;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+    }
+  }
+
+  &__title {
+    margin-left: 10%;
+  }
+
+  &__button {
+    border: none;
+    color: $white;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 10px;
+    width: 30px;
+
+    &--up {
+      background: $primaryGreen;
+    }
+
+    &--down {
+      background: $primaryYellow;
+    }
+
+    &--track {
+      font-size: 20px;
+      padding: 4px;
+      position: absolute;
+      left: -40px;
+    }
+
+    &--vote {
+      background: none;
+      border: 2px solid $white;
+      color: $white;
+      cursor: pointer;
+      padding: 4px;
+    }
+  }
+
+  &__progressBar {
+    border: none;
+    bottom: 10%;
+    height: 52px;
+    position: relative;
+    width: 100%;
+    z-index: 4;
+
+    &::-webkit-progress-value {
+      background: $primaryGreen;
+    }
+
+    &::-webkit-progress-bar {
+      background: $primaryYellow;
+    }
+
+    &--info {
+      bottom: 17%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 10px;
+      position: relative;
+      z-index: 5;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .votes {
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      width: 45%;
+
+      &--margin {
+        margin-right: 10%;
+      }
+    }
+
+    &__information {
+      &--title {
+        font-size: 40px;
+      }
+    }
+
+    &__button {
+      &--track {
+        top: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1080px) {
+  .votes {
+    &__information {
+
+      &--description {
+        font-size: 21px;
+      }
+    }
+  }
+}

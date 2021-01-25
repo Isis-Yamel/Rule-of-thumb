@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './container/App';
+import './styles/normalize.css';
 
 import thunk from 'redux-thunk';
 import { createStore, applyMiddleware, compose } from 'redux';

@@ -1,0 +1,61 @@
+/* ---- banner layout and styles ---- */
+@import '../../styles/constants/palette.scss';
+
+.banner {
+  &__container {
+    align-items: center;
+    background-color: $primaryGray;
+    display: flex;
+    flex-flow: column;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+
+    &--description {
+      width: 72%;
+    }
+
+    &--icon {
+      text-align: center;
+      width: 4%;
+    }
+  }
+
+  &__title {
+    align-items: center;
+    display: flex;
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    &__container {
+      flex-flow: row;
+    }
+
+    &__title {
+      display: block;
+      width: 24%;
+    }
+  }
+}
+
+@media (min-width: 1080px) {
+  .banner {
+
+    &__title {
+      padding-left: 2%;
+
+      &--slogan {
+        font-size: 22px;
+        margin: 0;
+      }
+
+      &--head {
+        font-size: 38px;
+        margin: 0;
+      }
+    }
+  }
+}
